@@ -1,0 +1,19 @@
+{
+  "name": "vms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dika hastanto",
+  "license": "ISC",
+  "dependencies": {
+    "bmkg": "^1.0.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsftp": "^2.1.3",
+    "mongoose": "^5.7.7"
+  }
+}
