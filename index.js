@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({
   limit: '50mb'
 }))
 
-db.connectToDb
+// db.connectToDb
 
 // list route
 app.use('/weather', require('./routes/weather'))
