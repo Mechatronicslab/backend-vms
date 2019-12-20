@@ -3,7 +3,7 @@ const app = express()
 const cors = require('cors')
 const port = process.env.PORT || 5005
 const bodyParser = require('body-parser')
-const db = require('./config/dbConfig')
+// const db = require('./config/dbConfig')
 app.use(cors())
 // app.use(middleware())
 app.use(bodyParser.json({
