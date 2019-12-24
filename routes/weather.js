@@ -1,8 +1,8 @@
 const router = require('express').Router()
 const weatherController = require('../controller/weather')
 
-router.get('/get', (req, res) => {
-  weatherController.getWeather().then(result => {
+router.get('/get/:kota', (req, res) => {
+  weatherController.getWeather(req.params.kota).then(result => {
     res.json(result)
   })
 })
