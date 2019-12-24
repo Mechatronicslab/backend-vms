@@ -13,7 +13,7 @@ exports.getWeather = async (kota) => {
       windDirection: filterAngin(res.windDirection.values),
       windSpeed: filterAngin(res.windSpeed.values)
     })
-  })
+  })[0]
   return cuacaTanggamus
 }
 
